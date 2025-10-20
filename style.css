@@ -1,0 +1,30 @@
+body {
+  font-family: "Cairo", sans-serif;
+  background: linear-gradient(135deg, #001f3f, #0074D9);
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #00ccff;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.category {
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.category:hover {
+  background-color: rgba(255,255,255,0.2);
+  transform: scale(1.05);
+}
